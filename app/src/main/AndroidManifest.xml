@@ -11,6 +11,9 @@
         android:theme="@style/Theme.Android1">
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".lesson1.CustomElementsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
